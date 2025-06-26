@@ -1,4 +1,4 @@
-# si400-database-design-202510
+# database-design-202510
 
 - Please follow conventional commits:
 
