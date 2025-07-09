@@ -1,0 +1,44 @@
+[{
+  "_id": {
+    "$oid": "686e35be36b75142b04e4db8"
+  },
+  "id_especialista": "e001",
+  "nombres": "Humberto Perez",
+  "apellidos": "Garcia Quispe",
+  "tipo_documento": {
+    "nombre_documento": "dni",
+    "numero_documento": 55544483
+  },
+  "credenciales": [
+    {
+      "rama_especializada": "Licenciatura en Psicología",
+      "institucion": "UNMSM",
+      "fecha_emision": "2018-03-15",
+      "estado": "vigente"
+    }
+  ],
+  "direccion_trabajo": [
+    {
+      "institucion": "Clínica Salud Mental Lima",
+      "direccion": "AV. La Mar Jr. El exito calle 351"
+    }
+  ],
+  "agenda_especialista": [
+    {
+      "id_reunion": "r001",
+      "id_paciente": "p001",
+      "sesion_tratamiento": [
+        {
+          "fecha_actividad": "2025-07-12",
+          "descripcion_actividad": "Ejercicios cognitivos",
+          "estado_actividad": "superado"
+        },
+        {
+          "fecha_actividad": "2025-07-13",
+          "descripcion_actividad": "Ejercicios de fisio terapia",
+          "estado_actividad": "en proceso"
+        }
+      ]
+    }
+  ]
+}]
