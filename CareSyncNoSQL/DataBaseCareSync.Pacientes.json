@@ -30,25 +30,5 @@
       "lesiones fisicas",
       "lesiones psicologicas"
     ]
-  },
-  "Diagnostico": [
-    {
-      "Enfermedad": "Ansiedad",
-      "Fecha_diagnostico": "2024-01-15",
-      "Sintomas": [
-        "insomnio",
-        "nerviosismo"
-      ],
-      "Observaciones": "Paciente presenta ataques de ansiedad despues de una mala experiencia en su dia"
-    },
-    {
-      "Enfermedad": "Hipertensión",
-      "Fecha_diagnostico": "2023-09-10",
-      "Sintomas": [
-        "dolor de cabeza",
-        "Presion arterial alta"
-      ],
-      "Observaciones": "Paciente presenta sensacion de punzadas o presion continua en la pared arterial del cerebro "
-    }
-  ]
+  }
 }]
