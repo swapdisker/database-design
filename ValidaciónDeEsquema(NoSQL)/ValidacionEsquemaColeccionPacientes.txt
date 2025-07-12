@@ -1,0 +1,96 @@
+{
+  $jsonSchema: {
+    bsonType: "object",
+    required: [
+      "_id",
+      "Apellidos",
+      "Datos_direccion",
+      "Fecha_nacimiento",
+      "id_paciente",
+      "Nombres",
+      "Plan_seguro",
+      "Sexo",
+      "Telefono",
+      "tipo_documento"
+    ],
+    properties: {
+      _id: {
+        bsonType: "objectId"
+      },
+      Apellidos: {
+        bsonType: "string"
+      },
+      Datos_direccion: {
+        bsonType: "array",
+        items: {
+          bsonType: "object",
+          properties: {
+            Codigo_postal: {
+              bsonType: "int"
+            },
+            Direccion: {
+              bsonType: "string"
+            }
+          },
+          required: ["Codigo_postal", "Direccion"]
+        }
+      },
+      Fecha_nacimiento: {
+        bsonType: "string"
+      },
+      id_paciente: {
+        bsonType: "string"
+      },
+      Nombres: {
+        bsonType: "string"
+      },
+      Plan_seguro: {
+        bsonType: "object",
+        properties: {
+          cobertura_seguro: {
+            bsonType: "array",
+            items: {
+              bsonType: "string"
+            }
+          },
+          compania_seguro: {
+            bsonType: "string"
+          },
+          numero_poliza: {
+            bsonType: "string"
+          },
+          poliza_activada: {
+            bsonType: "bool"
+          }
+        },
+        required: [
+          "cobertura_seguro",
+          "compania_seguro",
+          "numero_poliza",
+          "poliza_activada"
+        ]
+      },
+      Sexo: {
+        bsonType: "string"
+      },
+      Telefono: {
+        bsonType: "string"
+      },
+      tipo_documento: {
+        bsonType: "object",
+        properties: {
+          nombre_documento: {
+            bsonType: "string"
+          },
+          numero_documento: {
+            bsonType: "int"
+          }
+        },
+        required: [
+          "nombre_documento",
+          "numero_documento"
+        ]
+      }
+    }
+  }
+}

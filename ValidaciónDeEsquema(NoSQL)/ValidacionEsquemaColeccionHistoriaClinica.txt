@@ -1,0 +1,171 @@
+{
+  $jsonSchema: {
+    bsonType: 'object',
+    required: [
+      '_id',
+      'antecedentes_paciente',
+      'citas',
+      'diagnosticos',
+      'estado',
+      'fecha_creacion',
+      'id_especialista',
+      'id_paciente',
+      'motivo_consulta',
+      'tratamientos'
+    ],
+    properties: {
+      _id: {
+        bsonType: 'objectId'
+      },
+      antecedentes_paciente: {
+        bsonType: 'string'
+      },
+      citas: {
+        bsonType: 'array',
+        items: {
+          bsonType: 'object',
+          properties: {
+            descripcion: {
+              bsonType: 'string'
+            },
+            estado: {
+              bsonType: 'string'
+            },
+            fecha: {
+              bsonType: 'string'
+            },
+            id_cita: {
+              bsonType: 'string'
+            },
+            informe_clinico: {
+              bsonType: 'object',
+              properties: {
+                fecha_emision: {
+                  bsonType: 'string'
+                }
+              },
+              required: [
+                'fecha_emision'
+              ]
+            }
+          },
+          required: [
+            'descripcion',
+            'estado',
+            'fecha',
+            'id_cita',
+            'informe_clinico'
+          ]
+        }
+      },
+      diagnosticos: {
+        bsonType: 'array',
+        items: {
+          bsonType: 'object',
+          properties: {
+            enfermedad: {
+              bsonType: 'string'
+            },
+            fecha_diagnostico: {
+              bsonType: 'string'
+            },
+            id_cita: {
+              bsonType: 'string'
+            },
+            id_diag: {
+              bsonType: 'string'
+            },
+            observaciones: {
+              bsonType: 'string'
+            },
+            recomendaciones: {
+              bsonType: 'string'
+            },
+            sintomas: {
+              bsonType: 'array',
+              items: {
+                bsonType: 'string'
+              }
+            }
+          },
+          required: [
+            'enfermedad',
+            'fecha_diagnostico',
+            'id_diag',
+            'observaciones',
+            'recomendaciones',
+            'sintomas'
+          ]
+        }
+      },
+      estado: {
+        bsonType: 'string'
+      },
+      fecha_creacion: {
+        bsonType: 'string'
+      },
+      id_especialista: {
+        bsonType: 'string'
+      },
+      id_paciente: {
+        bsonType: 'string'
+      },
+      motivo_consulta: {
+        bsonType: 'string'
+      },
+      tratamientos: {
+        bsonType: 'array',
+        items: {
+          bsonType: 'object',
+          properties: {
+            estado: {
+              bsonType: 'string'
+            },
+            fecha_inicio: {
+              bsonType: 'string'
+            },
+            id_tratamiento: {
+              bsonType: 'string'
+            },
+            medicacion: {
+              bsonType: 'array',
+              items: {
+                bsonType: 'object',
+                properties: {
+                  descripcion_dosis: {
+                    bsonType: 'string'
+                  },
+                  duracion_medicamento_dias: {
+                    bsonType: 'int'
+                  },
+                  intervalor_dosis_horas: {
+                    bsonType: 'int'
+                  },
+                  nombre_medicamento: {
+                    bsonType: 'string'
+                  },
+                  precio_unitario_soles: {
+                    bsonType: 'double'
+                  }
+                },
+                required: [
+                  'descripcion_dosis',
+                  'duracion_medicamento_dias',
+                  'intervalor_dosis_horas',
+                  'nombre_medicamento',
+                  'precio_unitario_soles'
+                ]
+              }
+            }
+          },
+          required: [
+            'estado',
+            'fecha_inicio',
+            'id_tratamiento',
+            'medicacion'
+          ]
+        }
+      }
+    }
+  }
+}

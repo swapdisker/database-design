@@ -1,0 +1,129 @@
+{
+  $jsonSchema: {
+    bsonType: 'object',
+    required: [
+      '_id',
+      'agenda_especialista',
+      'apellidos',
+      'credenciales',
+      'direccion_trabajo',
+      'id_especialista',
+      'nombres',
+      'tipo_documento'
+    ],
+    properties: {
+      _id: {
+        bsonType: 'objectId'
+      },
+      agenda_especialista: {
+        bsonType: 'array',
+        items: {
+          bsonType: 'object',
+          properties: {
+            id_paciente: {
+              bsonType: 'string'
+            },
+            id_reunion: {
+              bsonType: 'string'
+            },
+            sesion_tratamiento: {
+              bsonType: 'array',
+              items: {
+                bsonType: 'object',
+                properties: {
+                  descripcion_actividad: {
+                    bsonType: 'string'
+                  },
+                  estado_actividad: {
+                    bsonType: 'string'
+                  },
+                  fecha_actividad: {
+                    bsonType: 'string'
+                  }
+                },
+                required: [
+                  'descripcion_actividad',
+                  'estado_actividad',
+                  'fecha_actividad'
+                ]
+              }
+            }
+          },
+          required: [
+            'id_paciente',
+            'id_reunion',
+            'sesion_tratamiento'
+          ]
+        }
+      },
+      apellidos: {
+        bsonType: 'string'
+      },
+      credenciales: {
+        bsonType: 'array',
+        items: {
+          bsonType: 'object',
+          properties: {
+            estado: {
+              bsonType: 'string'
+            },
+            fecha_emision: {
+              bsonType: 'string'
+            },
+            institucion: {
+              bsonType: 'string'
+            },
+            rama_especializada: {
+              bsonType: 'string'
+            }
+          },
+          required: [
+            'estado',
+            'fecha_emision',
+            'institucion',
+            'rama_especializada'
+          ]
+        }
+      },
+      direccion_trabajo: {
+        bsonType: 'array',
+        items: {
+          bsonType: 'object',
+          properties: {
+            direccion: {
+              bsonType: 'string'
+            },
+            institucion: {
+              bsonType: 'string'
+            }
+          },
+          required: [
+            'direccion',
+            'institucion'
+          ]
+        }
+      },
+      id_especialista: {
+        bsonType: 'string'
+      },
+      nombres: {
+        bsonType: 'string'
+      },
+      tipo_documento: {
+        bsonType: 'object',
+        properties: {
+          nombre_documento: {
+            bsonType: 'string'
+          },
+          numero_documento: {
+            bsonType: 'int'
+          }
+        },
+        required: [
+          'nombre_documento',
+          'numero_documento'
+        ]
+      }
+    }
+  }
+}
