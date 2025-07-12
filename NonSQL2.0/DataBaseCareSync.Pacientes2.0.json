@@ -1,0 +1,183 @@
+[{
+  "_id": {
+    "$oid": "686e013c36b75142b04e4db1"
+  },
+  "id_paciente": "p001",
+  "Nombres": "Perez Pacheco",
+  "Apellidos": "Suarez Bernuy",
+  "Sexo": "Masculino",
+  "Fecha_nacimiento": "1990-06-12",
+  "Telefono": "+51 999333111",
+  "tipo_documento": {
+    "nombre_documento": "dni",
+    "numero_documento": 777222
+  },
+  "Datos_direccion": [
+    {
+      "Codigo_postal": 15900,
+      "Direccion": "Av. Siempre Viva 123"
+    },
+    {
+      "Codigo_postal": 14270,
+      "Direccion": "Av. Canada 342"
+    }
+  ],
+  "Plan_seguro": {
+    "numero_poliza": "123",
+    "poliza_activada": true,
+    "compania_seguro": "SanaSanaColitaRana",
+    "cobertura_seguro": [
+      "lesiones fisicas",
+      "lesiones psicologicas"
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "6870c110a5057f385974cdf4"
+  },
+  "id_paciente": "p002",
+  "Nombres": "Lucía",
+  "Apellidos": "Ramírez Soto",
+  "Sexo": "Femenino",
+  "Fecha_nacimiento": "1985-03-22",
+  "Telefono": "+51 988111222",
+  "tipo_documento": {
+    "nombre_documento": "dni",
+    "numero_documento": 12345678
+  },
+  "Datos_direccion": [
+    {
+      "Codigo_postal": 15001,
+      "Direccion": "Calle Los Olivos 456"
+    }
+  ],
+  "Plan_seguro": {
+    "numero_poliza": "456",
+    "poliza_activada": true,
+    "compania_seguro": "SaludTotal",
+    "cobertura_seguro": [
+      "consultas",
+      "emergencias"
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "6870c124a5057f385974cdf6"
+  },
+  "id_paciente": "p003",
+  "Nombres": "Carlos",
+  "Apellidos": "Mendoza Ruiz",
+  "Sexo": "Masculino",
+  "Fecha_nacimiento": "1992-11-10",
+  "Telefono": "+51 977222333",
+  "tipo_documento": {
+    "nombre_documento": "dni",
+    "numero_documento": 87654321
+  },
+  "Datos_direccion": [
+    {
+      "Codigo_postal": 15002,
+      "Direccion": "Av. Primavera 789"
+    }
+  ],
+  "Plan_seguro": {
+    "numero_poliza": "789",
+    "poliza_activada": false,
+    "compania_seguro": "VidaSana",
+    "cobertura_seguro": [
+      "hospitalización"
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "6870c137a5057f385974cdf8"
+  },
+  "id_paciente": "p004",
+  "Nombres": "María",
+  "Apellidos": "Gómez Torres",
+  "Sexo": "Femenino",
+  "Fecha_nacimiento": "2000-07-15",
+  "Telefono": "+51 955333444",
+  "tipo_documento": {
+    "nombre_documento": "dni",
+    "numero_documento": 11223344
+  },
+  "Datos_direccion": [
+    {
+      "Codigo_postal": 15003,
+      "Direccion": "Jr. Las Flores 321"
+    }
+  ],
+  "Plan_seguro": {
+    "numero_poliza": "321",
+    "poliza_activada": true,
+    "compania_seguro": "SeguroPeru",
+    "cobertura_seguro": [
+      "medicinas",
+      "consultas"
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "6870c14ba5057f385974cdfa"
+  },
+  "id_paciente": "p005",
+  "Nombres": "Jorge",
+  "Apellidos": "Vargas León",
+  "Sexo": "Masculino",
+  "Fecha_nacimiento": "1978-01-30",
+  "Telefono": "+51 944555666",
+  "tipo_documento": {
+    "nombre_documento": "dni",
+    "numero_documento": 55667788
+  },
+  "Datos_direccion": [
+    {
+      "Codigo_postal": 15004,
+      "Direccion": "Av. El Sol 654"
+    }
+  ],
+  "Plan_seguro": {
+    "numero_poliza": "654",
+    "poliza_activada": false,
+    "compania_seguro": "SaludPlus",
+    "cobertura_seguro": [
+      "emergencias"
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "6870c17ba5057f385974cdfe"
+  },
+  "id_paciente": "p006",
+  "Nombres": "Andrea",
+  "Apellidos": "Salas Paredes",
+  "Sexo": "Femenino",
+  "Fecha_nacimiento": "1995-09-05",
+  "Telefono": "+51 933777888",
+  "tipo_documento": {
+    "nombre_documento": "dni",
+    "numero_documento": 99887766
+  },
+  "Datos_direccion": [
+    {
+      "Codigo_postal": 15005,
+      "Direccion": "Calle Central 987"
+    }
+  ],
+  "Plan_seguro": {
+    "numero_poliza": "987",
+    "poliza_activada": true,
+    "compania_seguro": "ProtegeSalud",
+    "cobertura_seguro": [
+      "consultas",
+      "hospitalización",
+      "medicinas"
+    ]
+  }
+}]

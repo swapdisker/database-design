@@ -1,0 +1,133 @@
+[{
+  "_id": {
+    "$oid": "686e42d736b75142b04e4dcb"
+  },
+  "id_paciente": "p001",
+  "id_especialista": "e001",
+  "fecha_creacion": "2025-07-09",
+  "motivo_consulta": "Dolor de cabeza recurrente",
+  "antecedentes_paciente": "Migrañas desde la adolescencia",
+  "estado": "ABIERTA",
+  "citas": [
+    {
+      "id_cita": "c001",
+      "fecha": "2025-07-12",
+      "estado": "PENDIENTE",
+      "descripcion": "Primera consulta",
+      "informe_clinico": {
+        "fecha_emision": "2025-07-12"
+      }
+    }
+  ],
+  "diagnosticos": [
+    {
+      "id_diag": "d001",
+      "enfermedad": "Ansiedad",
+      "fecha_diagnostico": "2024-01-15",
+      "sintomas": [
+        "insomnio",
+        "nerviosismo"
+      ],
+      "observaciones": "Paciente presenta ataques de ansiedad después de una mala experiencia en su día",
+      "recomendaciones": "Evitar luces fuertes y rapidas"
+    },
+    {
+      "id_diag": "d002",
+      "id_cita": "c001",
+      "enfermedad": "Hipertensión",
+      "fecha_diagnostico": "2023-09-10",
+      "sintomas": [
+        "dolor de cabeza",
+        "presion arterial alta"
+      ],
+      "observaciones": "Paciente presenta sensación de punzadas o presión continua en la pared arterial del cerebro",
+      "recomendaciones": "consumir hierbas medicinales para calmar el dolor"
+    }
+  ],
+  "tratamientos": [
+    {
+      "id_tratamiento": "t001",
+      "fecha_inicio": "2025-07-12",
+      "estado": "ACTIVO",
+      "medicacion": [
+        {
+          "nombre_medicamento": "Chiquitolina",
+          "descripcion_dosis": "media pastilla",
+          "intervalor_dosis_horas": 12,
+          "precio_unitario_soles": 1.5,
+          "duracion_medicamento_dias": 3
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6870c2b3a5057f385974ce0c"
+  },
+  "id_paciente": "p002",
+  "id_especialista": "e002",
+  "fecha_creacion": "2025-07-10",
+  "motivo_consulta": "Estrés laboral",
+  "antecedentes_paciente": "Ansiedad leve en el pasado",
+  "estado": "ABIERTA",
+  "citas": [],
+  "diagnosticos": [],
+  "tratamientos": []
+},
+{
+  "_id": {
+    "$oid": "6870c2c1a5057f385974ce0e"
+  },
+  "id_paciente": "p003",
+  "id_especialista": "e003",
+  "fecha_creacion": "2025-07-11",
+  "motivo_consulta": "Problemas de sueño",
+  "antecedentes_paciente": "Insomnio ocasional",
+  "estado": "ABIERTA",
+  "citas": [],
+  "diagnosticos": [],
+  "tratamientos": []
+},
+{
+  "_id": {
+    "$oid": "6870c2e0a5057f385974ce11"
+  },
+  "id_paciente": "p004",
+  "id_especialista": "e004",
+  "fecha_creacion": "2025-07-12",
+  "motivo_consulta": "Dificultad de concentración",
+  "antecedentes_paciente": "Sin antecedentes relevantes",
+  "estado": "ABIERTA",
+  "citas": [],
+  "diagnosticos": [],
+  "tratamientos": []
+},
+{
+  "_id": {
+    "$oid": "6870c2eea5057f385974ce13"
+  },
+  "id_paciente": "p005",
+  "id_especialista": "e005",
+  "fecha_creacion": "2025-07-13",
+  "motivo_consulta": "Tristeza persistente",
+  "antecedentes_paciente": "Depresión leve tratada hace 2 años",
+  "estado": "ABIERTA",
+  "citas": [],
+  "diagnosticos": [],
+  "tratamientos": []
+},
+{
+  "_id": {
+    "$oid": "6870c2fea5057f385974ce15"
+  },
+  "id_paciente": "p006",
+  "id_especialista": "e006",
+  "fecha_creacion": "2025-07-14",
+  "motivo_consulta": "Fobia social",
+  "antecedentes_paciente": "Timidez desde la infancia",
+  "estado": "ABIERTA",
+  "citas": [],
+  "diagnosticos": [],
+  "tratamientos": []
+}]

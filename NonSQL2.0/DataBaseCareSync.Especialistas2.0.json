@@ -1,0 +1,213 @@
+[{
+  "_id": {
+    "$oid": "686e35be36b75142b04e4db8"
+  },
+  "id_especialista": "e001",
+  "nombres": "Humberto Perez",
+  "apellidos": "Garcia Quispe",
+  "tipo_documento": {
+    "nombre_documento": "dni",
+    "numero_documento": 55544483
+  },
+  "credenciales": [
+    {
+      "rama_especializada": "Licenciatura en Psicología",
+      "institucion": "UNMSM",
+      "fecha_emision": "2018-03-15",
+      "estado": "vigente"
+    }
+  ],
+  "direccion_trabajo": [
+    {
+      "institucion": "Clínica Salud Mental Lima",
+      "direccion": "AV. La Mar Jr. El exito calle 351"
+    }
+  ],
+  "agenda_especialista": [
+    {
+      "id_reunion": "r001",
+      "id_paciente": "p001",
+      "sesion_tratamiento": [
+        {
+          "fecha_actividad": "2025-07-12",
+          "descripcion_actividad": "Ejercicios cognitivos",
+          "estado_actividad": "superado"
+        },
+        {
+          "fecha_actividad": "2025-07-13",
+          "descripcion_actividad": "Ejercicios de fisio terapia",
+          "estado_actividad": "en proceso"
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6870c19ba5057f385974ce01"
+  },
+  "id_especialista": "e002",
+  "nombres": "Ana",
+  "apellidos": "Lopez Rivera",
+  "tipo_documento": {
+    "nombre_documento": "dni",
+    "numero_documento": 33445566
+  },
+  "credenciales": [
+    {
+      "rama_especializada": "Psiquiatría",
+      "institucion": "UPCH",
+      "fecha_emision": "2015-06-20",
+      "estado": "vigente"
+    }
+  ],
+  "direccion_trabajo": [
+    {
+      "institucion": "Hospital Nacional",
+      "direccion": "Av. Salud 123"
+    }
+  ],
+  "agenda_especialista": [
+    {
+      "id_reunion": "r002",
+      "id_paciente": "p002",
+      "sesion_tratamiento": [
+        {
+          "fecha_actividad": "2025-08-21",
+          "descripcion_actividad": "Tecnicas de relajacion",
+          "estado_actividad": "superado"
+        },
+        {
+          "fecha_actividad": "2025-07-13",
+          "descripcion_actividad": "Ejercicios de mindfulness",
+          "estado_actividad": "superado"
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6870c212a5057f385974ce03"
+  },
+  "id_especialista": "e003",
+  "nombres": "Luis",
+  "apellidos": "Fernandez Soto",
+  "tipo_documento": {
+    "nombre_documento": "dni",
+    "numero_documento": 44556677
+  },
+  "credenciales": [
+    {
+      "rama_especializada": "Psicología Clínica",
+      "institucion": "PUCP",
+      "fecha_emision": "2012-09-10",
+      "estado": "vigente"
+    }
+  ],
+  "direccion_trabajo": [
+    {
+      "institucion": "Centro Psicoterapéutico",
+      "direccion": "Jr. Bienestar 456"
+    }
+  ],
+  "agenda_especialista": [
+    {
+      "id_reunion": "r002",
+      "id_paciente": "p002",
+      "sesion_tratamiento": [
+        {
+          "fecha_actividad": "2025-10-17",
+          "descripcion_actividad": "Trabajo motriz de espalda",
+          "estado_actividad": "En proceso"
+        },
+        {
+          "fecha_actividad": "2025-09-15",
+          "descripcion_actividad": "Yoga",
+          "estado_actividad": "superado"
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6870c22da5057f385974ce05"
+  },
+  "id_especialista": "e004",
+  "nombres": "Patricia",
+  "apellidos": "Mendoza Salazar",
+  "tipo_documento": {
+    "nombre_documento": "dni",
+    "numero_documento": 55667788
+  },
+  "credenciales": [
+    {
+      "rama_especializada": "Neuropsicología",
+      "institucion": "UNFV",
+      "fecha_emision": "2018-11-05",
+      "estado": "vigente"
+    }
+  ],
+  "direccion_trabajo": [
+    {
+      "institucion": "Clínica Cerebro",
+      "direccion": "Av. Inteligencia 789"
+    }
+  ],
+  "agenda_especialista": []
+},
+{
+  "_id": {
+    "$oid": "6870c241a5057f385974ce07"
+  },
+  "id_especialista": "e005",
+  "nombres": "Miguel",
+  "apellidos": "Torres Ponce",
+  "tipo_documento": {
+    "nombre_documento": "dni",
+    "numero_documento": 66778899
+  },
+  "credenciales": [
+    {
+      "rama_especializada": "Psicología Infantil",
+      "institucion": "USMP",
+      "fecha_emision": "2016-04-18",
+      "estado": "vigente"
+    }
+  ],
+  "direccion_trabajo": [
+    {
+      "institucion": "Centro Infantil",
+      "direccion": "Calle Niñez 321"
+    }
+  ],
+  "agenda_especialista": []
+},
+{
+  "_id": {
+    "$oid": "6870c276a5057f385974ce09"
+  },
+  "id_especialista": "e006",
+  "nombres": "Sofía",
+  "apellidos": "Rojas Díaz",
+  "tipo_documento": {
+    "nombre_documento": "dni",
+    "numero_documento": 77889900
+  },
+  "credenciales": [
+    {
+      "rama_especializada": "Psicoterapia",
+      "institucion": "UNMSM",
+      "fecha_emision": "2019-02-25",
+      "estado": "vigente"
+    }
+  ],
+  "direccion_trabajo": [
+    {
+      "institucion": "Consultorio Privado",
+      "direccion": "Av. Independencia 654"
+    }
+  ],
+  "agenda_especialista": []
+}]
